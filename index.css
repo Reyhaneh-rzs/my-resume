@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: 'IRANSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Iranian Sans Regular'), url('../font/irsans.woff') format('woff');
+}
+
+/* تنظیم وزن ضخیم (برای عنوان‌ها) */
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Iranian Sans Bold'), url('../font/irsansb.woff') format('woff');
+
+    }
+
+
+body {
+ 
+    font-family: 'Vazirmatn', 'Muli', sans-serif !important;
+}
+
+.image1{
+    max-width: 15rem !important;
+    max-height: 12rem !important;
+    width: 150px !important;
+}
